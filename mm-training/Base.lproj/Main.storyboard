@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8Ao-7R-Gul">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--La methode montignac-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="mm_training" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +15,293 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Raymunfil" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OPy-tv-HAY">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="79" y="79" width="86" height="21"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="raymunfil.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Q8y-wc-fwK">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="11" y="72" width="60" height="60"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mm_menu_divider.png" translatesAutoresizingMaskIntoConstraints="NO" id="TQI-v7-QPR">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="2" y="274" width="382" height="6"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mm_menu_title_green.png" translatesAutoresizingMaskIntoConstraints="NO" id="BVU-5e-ehS">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="11" y="288" width="130" height="20"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mm_menu_divider.png" translatesAutoresizingMaskIntoConstraints="NO" id="YxB-kQ-1rZ">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="2" y="419" width="382" height="6"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vous en etes la Semaine 26 du programme" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="21e-jp-eEK">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="79" y="100" width="247" height="32"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mm_menu_title_blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="jhM-yc-ift">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="11" y="148" width="180" height="20"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rH2-OB-IbI">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" backgroundImage="icon_plan_de_repas.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="176" width="90" height="90"/>
+                                </variation>
+                                <connections>
+                                    <action selector="planButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j76-6z-pdK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KB4-1l-peq">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" backgroundImage="icon_courbes.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="115" y="176" width="90" height="90"/>
+                                </variation>
+                                <connections>
+                                    <action selector="courbeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZFN-sl-GYF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="69I-bJ-ijC">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" backgroundImage="icon_parcours_minceur.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="219" y="176" width="90" height="90"/>
+                                </variation>
+                                <connections>
+                                    <action selector="parcoursButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HqE-jH-JKh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3zD-ky-PWY">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" backgroundImage="icon_session_du_jour.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="316" width="90" height="90"/>
+                                </variation>
+                                <connections>
+                                    <action selector="sessionButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Plb-8N-zZG"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mm_menu_title_pink.png" translatesAutoresizingMaskIntoConstraints="NO" id="O3p-Ez-0m8">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="11" y="433" width="140" height="20"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ulu-YI-wxn">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" backgroundImage="icon_alacarte.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="115" y="316" width="90" height="90"/>
+                                </variation>
+                                <connections>
+                                    <action selector="alacarteButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Ek-ei-sfm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zYD-ql-Sx1">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" backgroundImage="icon_forum_amis.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="461" width="90" height="90"/>
+                                </variation>
+                                <connections>
+                                    <action selector="forumsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2vD-9M-4pI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dAF-8p-ava">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" backgroundImage="icon_groupes.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="115" y="461" width="90" height="90"/>
+                                </variation>
+                                <connections>
+                                    <action selector="groupsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1gN-c5-rAf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k7o-O8-eGB">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" backgroundImage="icon_sucess_stories.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="219" y="461" width="90" height="90"/>
+                                </variation>
+                                <connections>
+                                    <action selector="successButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cEQ-WP-OTd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RGQ-46-DK1">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" backgroundImage="icon_dietteticienne.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="219" y="316" width="90" height="90"/>
+                                </variation>
+                                <connections>
+                                    <action selector="dietitianButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D2a-tL-DDN"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="OPy-tv-HAY"/>
+                                <exclude reference="Q8y-wc-fwK"/>
+                                <exclude reference="TQI-v7-QPR"/>
+                                <exclude reference="BVU-5e-ehS"/>
+                                <exclude reference="YxB-kQ-1rZ"/>
+                                <exclude reference="21e-jp-eEK"/>
+                                <exclude reference="jhM-yc-ift"/>
+                                <exclude reference="rH2-OB-IbI"/>
+                                <exclude reference="KB4-1l-peq"/>
+                                <exclude reference="69I-bJ-ijC"/>
+                                <exclude reference="3zD-ky-PWY"/>
+                                <exclude reference="O3p-Ez-0m8"/>
+                                <exclude reference="ulu-YI-wxn"/>
+                                <exclude reference="zYD-ql-Sx1"/>
+                                <exclude reference="dAF-8p-ava"/>
+                                <exclude reference="k7o-O8-eGB"/>
+                                <exclude reference="RGQ-46-DK1"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="OPy-tv-HAY"/>
+                                <include reference="Q8y-wc-fwK"/>
+                                <include reference="TQI-v7-QPR"/>
+                                <include reference="BVU-5e-ehS"/>
+                                <include reference="YxB-kQ-1rZ"/>
+                                <include reference="21e-jp-eEK"/>
+                                <include reference="jhM-yc-ift"/>
+                                <include reference="rH2-OB-IbI"/>
+                                <include reference="KB4-1l-peq"/>
+                                <include reference="69I-bJ-ijC"/>
+                                <include reference="3zD-ky-PWY"/>
+                                <include reference="O3p-Ez-0m8"/>
+                                <include reference="ulu-YI-wxn"/>
+                                <include reference="zYD-ql-Sx1"/>
+                                <include reference="dAF-8p-ava"/>
+                                <include reference="k7o-O8-eGB"/>
+                                <include reference="RGQ-46-DK1"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <navigationItem key="navigationItem" title="La methode montignac" id="MYw-9E-Euy"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1269" y="419"/>
+        </scene>
+        <!--WebView-->
+        <scene sceneID="M7W-5S-pCt">
+            <objects>
+                <viewController storyboardIdentifier="WebViewController" title="WebView" id="cOu-rx-gaf" customClass="WebViewController" customModule="mm_training" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oTK-6h-j5o"/>
+                        <viewControllerLayoutGuide type="bottom" id="BQ7-7h-fBQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aCH-Nk-HAW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fGl-pI-agb">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="57" width="320" height="549"/>
+                                </variation>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="fGl-pI-agb"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="fGl-pI-agb"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="Q0M-oH-lhW"/>
+                    <connections>
+                        <outlet property="webView" destination="fGl-pI-agb" id="ijs-xU-R0H"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0e3-JX-QY9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1942.5" y="419"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lPl-D8-K8C">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8Ao-7R-Gul" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rlc-iR-Woq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="dHS-RW-uYQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c3d-3V-tyo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="351" y="419"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icon_alacarte.png" width="94" height="94"/>
+        <image name="icon_courbes.png" width="94" height="94"/>
+        <image name="icon_dietteticienne.png" width="94" height="94"/>
+        <image name="icon_forum_amis.png" width="94" height="94"/>
+        <image name="icon_groupes.png" width="94" height="94"/>
+        <image name="icon_parcours_minceur.png" width="94" height="94"/>
+        <image name="icon_plan_de_repas.png" width="94" height="94"/>
+        <image name="icon_session_du_jour.png" width="94" height="94"/>
+        <image name="icon_sucess_stories.png" width="94" height="94"/>
+        <image name="mm_menu_divider.png" width="2" height="2"/>
+        <image name="mm_menu_title_blue.png" width="188" height="18"/>
+        <image name="mm_menu_title_green.png" width="133" height="19"/>
+        <image name="mm_menu_title_pink.png" width="157" height="18"/>
+        <image name="raymunfil.jpg" width="200" height="200"/>
+    </resources>
 </document>
